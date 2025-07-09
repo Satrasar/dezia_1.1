@@ -115,27 +115,6 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-slate-900 rounded-2xl p-6 shadow-lg border border-slate-700">
-              <h4 className="font-bold text-white mb-4">Neden Dezia?</h4>
-              <ul className="space-y-3">
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
-                  <span className="text-gray-400 text-sm">Türkiye'nin tek reklam otomasyon platformu</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
-                  <span className="text-gray-400 text-sm">Uzman ekip ve deneyimli yaklaşım</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
-                  <span className="text-gray-400 text-sm">Yenilikçi ve güvenilir teknoloji</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
-                  <span className="text-gray-400 text-sm">7/24 Türkçe destek hizmeti</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>

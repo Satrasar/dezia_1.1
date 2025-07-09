@@ -146,7 +146,7 @@ const Hero = () => {
             {/* Floating Elements */}
             <div className="absolute -top-6 -right-6 bg-slate-800/95 backdrop-blur-xl rounded-2xl p-5 shadow-2xl border border-slate-700/50">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg">
+                <div className="w-12 h-12 bg-gradient-to-br from-gray-950 from-slate-500 rounded-xl flex items-center justify-center shadow-lg">
                   <TrendingUp className="h-6 w-6 text-white" />
                 </div>
                 <div>
@@ -158,7 +158,7 @@ const Hero = () => {
 
             <div className="absolute -bottom-6 -left-6 bg-slate-800/95 backdrop-blur-xl rounded-2xl p-5 shadow-2xl border border-slate-700/50">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
+                <div className="w-12 h-12 bg-gradient-to-br from-gray-950 from-slate-500 rounded-xl flex items-center justify-center shadow-lg">
                   <Target className="h-6 w-6 text-white" />
                 </div>
                 <div>
