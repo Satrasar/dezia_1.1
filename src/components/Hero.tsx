@@ -4,7 +4,7 @@ import { ArrowRight, Play, TrendingUp, Clock, Target } from 'lucide-react';
 const Hero = () => {
   const handleDemoClick = () => {
     // Cal.com integration for scheduling - Emir Kayar profile
-    window.open('https://cal.com/emir-kayar-upfugr/tanisma-toplantisi-dezia', '_blank');
+    window.open('https://cal.com/emir-kayar-upfugr', '_blank');
   };
 
   const handleHowItWorksClick = () => {
