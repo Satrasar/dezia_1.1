@@ -35,12 +35,6 @@ const Contact = () => {
 
   const contactInfo = [
     {
-      icon: Phone,
-      title: 'Telefon',
-      details: '+90 544 224 2000',
-      description: 'Pazartesi-Cuma 09:00-18:00'
-    },
-    {
       icon: Mail,
       title: 'E-posta',
       details: 'hello@dezia.info',

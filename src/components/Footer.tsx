@@ -26,9 +26,6 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Instagram, href: '#', label: 'Instagram' }
   ];
 
   const scrollToTop = () => {
@@ -77,27 +74,11 @@ const Footer = () => {
             
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-gray-300" />
-                <span className="text-gray-400">+90 544 224 2000</span>
-              </div>
-              <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-gray-300" />
                 <span className="text-gray-400">hello@dezia.info</span>
               </div>
             </div>
 
-            <div className="flex space-x-4">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.href}
-                  className="bg-slate-800 hover:bg-gray-300 hover:text-slate-900 p-3 rounded-lg transition-all duration-200"
-                  aria-label={social.label}
-                >
-                  <social.icon className="h-5 w-5" />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -158,7 +139,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="flex flex-wrap items-center space-x-6">
               <p className="text-gray-400">
-                © 2024 Dezia. Tüm hakları saklıdır.
+                © 2025 Dezia. Tüm hakları saklıdır.
               </p>
               <div className="flex space-x-4">
                 {legalLinks.map((link, index) => (
