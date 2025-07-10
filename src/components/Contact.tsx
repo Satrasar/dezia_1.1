@@ -13,8 +13,8 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Cal.com integration for scheduling - updated link
-    window.open('https://cal.com/ozlemkumtas', '_blank');
+    // Cal.com integration for scheduling - Emir Kayar profile
+    window.open('https://cal.com/emir-kayar-upfugr/tanisma-toplantisi-dezia', '_blank');
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {

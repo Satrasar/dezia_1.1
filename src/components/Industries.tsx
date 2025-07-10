@@ -3,8 +3,8 @@ import { ShoppingBag, Monitor, Home, GraduationCap, Heart, Car } from 'lucide-re
 
 const Industries = () => {
   const handleScheduleCall = () => {
-    // Cal.com integration for scheduling - updated link
-    window.open('https://cal.com/ozlemkumtas', '_blank');
+    // Cal.com integration for scheduling - Emir Kayar profile
+    window.open('https://cal.com/emir-kayar-upfugr/tanisma-toplantisi-dezia', '_blank');
   };
 
   const primaryIndustries = [
