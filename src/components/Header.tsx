@@ -6,7 +6,7 @@ const Header = () => {
 
   const handleCTAClick = () => {
     // Cal.com integration for scheduling - Emir Kayar profile
-    window.open('https://cal.com/emir-kayar-upfugr', '_blank');
+    window.open('https://cal.com/emir-kayar', '_blank');
   };
 
   return (
