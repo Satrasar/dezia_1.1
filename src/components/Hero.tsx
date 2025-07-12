@@ -1,13 +1,17 @@
 import React from 'react';
 import { ArrowRight, Play, TrendingUp, Clock, Target } from 'lucide-react';
+import { trackButtonClick, trackDemoRequest } from '../utils/analytics';
 
 const Hero = () => {
   const handleDemoClick = () => {
+    trackButtonClick('hero_demo_button');
+    trackDemoRequest();
     // Cal.com integration for scheduling - Emir Kayar profile
     window.open('https://cal.com/emir-kayar', '_blank');
   };
 
   const handleHowItWorksClick = () => {
+    trackButtonClick('hero_how_it_works');
     const target = document.getElementById('services');
     if (target) {
       target.scrollIntoView({ behavior: 'smooth' });

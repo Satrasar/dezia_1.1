@@ -1,8 +1,10 @@
 import React from 'react';
 import { ShoppingBag, Monitor, Home, GraduationCap, Heart, Car } from 'lucide-react';
+import { trackButtonClick } from '../utils/analytics';
 
 const Industries = () => {
   const handleScheduleCall = () => {
+    trackButtonClick('industries_schedule_call');
     // Cal.com integration for scheduling - Emir Kayar profile
     window.open('https://cal.com/emir-kayar', '_blank');
   };

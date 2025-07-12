@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { trackButtonClick, trackDemoRequest } from '../utils/analytics';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleCTAClick = () => {
+    trackButtonClick('header_cta');
+    trackDemoRequest();
     // Cal.com integration for scheduling - Emir Kayar profile
     window.open('https://cal.com/emir-kayar', '_blank');
   };

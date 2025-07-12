@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send, Clock, MessageCircle } from 'lucide-react';
+import { trackFormSubmit, trackButtonClick, trackEmailClick } from '../utils/analytics';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -13,6 +14,8 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    trackFormSubmit('contact_form');
+    trackButtonClick('contact_form_submit');
     // Cal.com integration for scheduling - Emir Kayar profile
     window.open('https://cal.com/emir-kayar', '_blank');
   };
@@ -88,7 +91,13 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-white mb-1">{info.title}</h4>
-                    <p className="text-white font-medium">{info.details}</p>
+                    <a 
+                      href={`mailto:${info.details}`}
+                      onClick={() => trackEmailClick()}
+                      className="text-white font-medium hover:underline"
+                    >
+                      {info.details}
+                    </a>
                     <p className="text-sm text-gray-400">{info.description}</p>
                   </div>
                 </div>
