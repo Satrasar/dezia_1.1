@@ -7,7 +7,7 @@ declare global {
 }
 
 // Google Analytics ID'nizi buraya yazın
-export const GA_TRACKING_ID = 'G-XXXXXXXXXX'; // Bu kısmı kendi Analytics ID'nizle değiştirin
+export const GA_TRACKING_ID = 'G-4ZTCSW8LK5'; // Bu kısmı kendi Analytics ID'nizle değiştirin
 
 // Google Analytics'i başlat
 export const initGA = () => {
