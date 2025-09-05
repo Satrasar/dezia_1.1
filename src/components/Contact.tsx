@@ -40,7 +40,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'E-posta',
-      details: 'hello@dezia.info',
+      details: 'info@dezia.site',
       description: 'Online destek'
     }
   ];
