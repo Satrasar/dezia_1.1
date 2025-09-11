@@ -9,7 +9,7 @@ const Header = () => {
     trackButtonClick('header_cta');
     trackDemoRequest();
     // Cal.com integration for scheduling - Emir Kayar profile
-    window.open('https://cal.com/emir-kayar', '_blank');
+    window.open('https://cal.com/ozlemkumtas', '_blank');
   };
 
   return (

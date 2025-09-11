@@ -7,7 +7,7 @@ const Hero = () => {
     trackButtonClick('hero_demo_button');
     trackDemoRequest();
     // Cal.com integration for scheduling - Emir Kayar profile
-    window.open('https://cal.com/emir-kayar', '_blank');
+    window.open('https://cal.com/ozlemkumtas', '_blank');
   };
 
   const handleHowItWorksClick = () => {

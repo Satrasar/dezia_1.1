@@ -17,7 +17,7 @@ const Contact = () => {
     trackFormSubmit('contact_form');
     trackButtonClick('contact_form_submit');
     // Cal.com integration for scheduling - Emir Kayar profile
-    window.open('https://cal.com/emir-kayar', '_blank');
+    window.open('https://cal.com/ozlemkumtas', '_blank');
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {

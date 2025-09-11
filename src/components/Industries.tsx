@@ -6,7 +6,7 @@ const Industries = () => {
   const handleScheduleCall = () => {
     trackButtonClick('industries_schedule_call');
     // Cal.com integration for scheduling - Emir Kayar profile
-    window.open('https://cal.com/emir-kayar', '_blank');
+    window.open('https://cal.com/ozlemkumtas', '_blank');
   };
 
   const primaryIndustries = [
